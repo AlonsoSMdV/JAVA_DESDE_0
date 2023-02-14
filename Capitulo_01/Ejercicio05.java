@@ -1,5 +1,7 @@
 package Capitulo_01;
-
+/*
+ *Modifica el programa anterior añadiendo colores. Puedes mostrar cada asignatura de un color diferente.
+ */
 public class Ejercicio05 {
     public static void main(String args[]){
         System.out.println("|Lunes|Martes|Miércoles|Jueves|Viernes|");

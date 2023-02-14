@@ -1,5 +1,9 @@
 package Capitulo_02;
-
+/*
+ * Escribe un programa que calcule el total de una factura a partir de la base
+ * imponible (precio sin IVA). La base imponible estará almacenada en una
+ * variable
+ */
 public class Ejercicio06 {
     public static void main(String args[]){
         double base = 99.99;
