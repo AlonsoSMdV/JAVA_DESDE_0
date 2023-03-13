@@ -10,11 +10,7 @@ public class Ejercicio101 {
         n[8] = 5;
         n[9] = 120;
         for(int i = 0; i<12;i++){
-            System.out.print(i+"  |");
-        }
-        System.out.println();
-        for(int i = 0; i<12;i++){
-            System.out.print(n[i]+" |");
+            System.out.printf("%2d: %d\n",i,n[i]);
         }
     }
 }
