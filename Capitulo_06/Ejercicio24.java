@@ -1,5 +1,7 @@
 package Capitulo_06;
-
+/* Escribe un programa que, dado un número introducido por teclado, elija al azar
+uno de sus dígitos.
+*/
 import java.util.Scanner;
 public class Ejercicio24 {
     public static void main(String[] args){
