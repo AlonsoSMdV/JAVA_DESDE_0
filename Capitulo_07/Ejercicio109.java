@@ -1,5 +1,8 @@
 package Capitulo_07;
+/* Realiza un programa que pida 8 números enteros y que luego muestre esos
+números junto con la palabra “par” o “impar” según proceda.
 
+ */
 
 import java.util.Scanner;
 public class Ejercicio109 {
