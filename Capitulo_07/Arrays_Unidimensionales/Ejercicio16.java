@@ -6,7 +6,7 @@ múltiplos de 5 o los múltiplos de 7. Seguidamente se volverá a mostrar el arr
 escribiendo los números que se quieren resaltar entre corchetes. */
 
 import java.util.Scanner;
-public class Ejercicio116 {
+public class Ejercicio16 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] num = new int[100];

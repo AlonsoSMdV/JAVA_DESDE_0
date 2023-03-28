@@ -9,7 +9,7 @@ ninguno. Al final se debe mostrar el array resultante.
  */
 
 import java.util.Scanner;
-public class Ejercicio112 {
+public class Ejercicio12 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] num = new int[10];

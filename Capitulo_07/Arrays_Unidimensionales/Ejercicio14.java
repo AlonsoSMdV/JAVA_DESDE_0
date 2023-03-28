@@ -7,7 +7,7 @@ otro array y son los siguientes: verde, rojo, azul, amarillo, naranja, rosa, neg
 blanco y morado.
  */
 import java.util.Scanner;
-public class Ejercicio114 {
+public class Ejercicio14 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String[] palabra = new String[8];

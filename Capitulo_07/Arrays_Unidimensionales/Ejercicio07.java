@@ -6,7 +6,7 @@ valor por el segundo en la lista generada anteriormente. Los números que se
 han cambiado deben aparecer entrecomillados.
  */
 import java.util.Scanner;
-public class Ejercicio107 {
+public class Ejercicio07 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] numero = new int[100];

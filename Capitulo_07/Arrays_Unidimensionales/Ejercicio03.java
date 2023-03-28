@@ -4,7 +4,7 @@ en orden inverso, es decir, el primero que se introduce es el último en mostrar
 y viceversa.
  */
 import java.util.Scanner;
-public class Ejercicio103 {
+public class Ejercicio03 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] num = new int[10];

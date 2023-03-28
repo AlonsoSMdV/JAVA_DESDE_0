@@ -1,24 +1,20 @@
 package Capitulo_07.Arrays_Unidimensionales;
+/* Escribe un programa que muestre por pantalla un array de 10 números enteros
+generados al azar entre 0 y 100. A continuación, el programa debe pedir un
+número al usuario. Se debe comprobar que el número introducido por teclado
+se encuentra dentro del array, en caso contrario se mostrará un mensaje por
+pantalla y se volverá a pedir un número; así hasta que el usuario introduzca uno
+correctamente. A continuación, el programa rotará el array hacia la derecha
+las veces que haga falta hasta que el número introducido quede situado en la
+posición 0 del array. Por último, se mostrará el array rotado por pantalla.
 
-
-/*Realiza un programa que genere 10 números enteros aleatorios entre 0 y 200
-ambos incluidos y que los almacene en un array. A continuación, el programa
-debe mostrar el contenido de ese array junto al índice (0 – 9). Seguidamente el
-programa debe colocar de forma alterna y en orden los menores o iguales de
-100 y los mayores de 100: primero menor, luego mayor, luego menor, luego
-mayor… Cuando se acaben los menores o los mayores, se completará con los
-números que queden.
  */
-public class Ejercicio118 {
-    /**
-     * @param args
-     */
+
+ import java.util.Scanner;
+public class Ejercicio17 {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         int[] num = new int[10];
-        int[] menores = new int[10];
-        int[] mayores = new int[10];
-        int CuentaMenores = 0;
-        int CuentaMayores = 0;
         System.out.println("┌────────┬────────┬────────┬────────┬────────┬────────┬────────┬────────┬────────┬────────┐");
         System.out.printf("│");
         for(int i = 0;i < 10;i++){
@@ -30,30 +26,34 @@ public class Ejercicio118 {
 
                 System.out.printf("│");
         for(int i = 0;i < 10;i++){
-            num[i] = (int)(Math.random()*201);
+            num[i] = (int)(Math.random()*101);
             System.out.printf("%-8s│",num[i]);
-            if( num[i] <= 100){
-                menores[CuentaMenores++] = num[i];
-            }else if( num[i] > 100){
-                mayores[CuentaMayores++] = num[i];
-            }
         }
         System.out.println();
         System.out.println("└────────┴────────┴────────┴────────┴────────┴────────┴────────┴────────┴────────┴────────┘");
-
-        int[] ArrayFinal = new int[10];
-        int j = 0;
-        int menos = 0;
-        int mas = 0;
+        int n;
+        boolean existe = false;
         do{
-            if(menos < CuentaMenores){
-                ArrayFinal[j++] = menores[menos++];
+            System.out.print("Introduzca un numero que esté dentro del array: ");
+            n = sc.nextInt();
+            for(int i : num){
+                if(i == n){
+                    existe = true;
+                }
             }
+            if(!existe){
+                System.out.println("El número no existe, introduce otro");
 
-            if(mas < CuentaMayores){
-                ArrayFinal[j++] = mayores[mas++];
             }
-        }while(j < 10);
+        }while(!existe);
+
+        while(num[0] != n){
+            int aux = num[9];
+            for (int i = 9; i > 0; i--) {
+                num[i] = num[i-1];
+            }
+            num[0] = aux;
+        }
         System.out.println("┌────────┬────────┬────────┬────────┬────────┬────────┬────────┬────────┬────────┬────────┐");
         System.out.printf("│");
         for(int i = 0;i < 10;i++){
@@ -65,9 +65,10 @@ public class Ejercicio118 {
 
                 System.out.printf("│");
         for(int i = 0;i < 10;i++){
-            System.out.printf("%-8s│",ArrayFinal[i]);
+            System.out.printf("%-8s│",num[i]);
         }
         System.out.println();
         System.out.println("└────────┴────────┴────────┴────────┴────────┴────────┴────────┴────────┴────────┴────────┘");
+        sc.close();
     }
 }

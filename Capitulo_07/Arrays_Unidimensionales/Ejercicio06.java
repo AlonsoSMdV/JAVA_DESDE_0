@@ -6,7 +6,7 @@ la última posición debe pasar a la posición 0. Finalmente, muestra el conteni
 del array
  */
 import java.util.Scanner;
-public class Ejercicio106 {
+public class Ejercicio06 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] num = new int[15];

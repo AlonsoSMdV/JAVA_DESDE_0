@@ -5,7 +5,7 @@ números junto con la palabra “par” o “impar” según proceda.
  */
 
 import java.util.Scanner;
-public class Ejercicio109 {
+public class Ejercicio09 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

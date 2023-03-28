@@ -4,7 +4,7 @@ números introducidos junto con las palabras “máximo” y “mínimo” al la
 máximo y del mínimo respectivamente.
  */
 import java.util.Scanner;
-public class Ejercicio105 {
+public class Ejercicio05 {
     public static void main(String[] args){
     Scanner sc = new Scanner(System.in);
     int[] num = new int[11];

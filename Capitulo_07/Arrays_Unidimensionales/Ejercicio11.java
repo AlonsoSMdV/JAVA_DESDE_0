@@ -7,7 +7,7 @@ son primos) de tal forma que no se pierda ninguno. Al final se debe mostrar el
 array resultante.
  */
 import java.util.Scanner;
-public class Ejercicio111 {
+public class Ejercicio11 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] num = new int[10];

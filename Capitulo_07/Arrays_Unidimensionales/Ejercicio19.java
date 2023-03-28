@@ -6,7 +6,7 @@ han sido inicializados?
  */
 
 import java.util.Scanner;
-public class Ejercicio119 {
+public class Ejercicio19 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] num = new int[12];

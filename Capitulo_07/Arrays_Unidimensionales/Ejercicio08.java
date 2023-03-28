@@ -5,7 +5,7 @@ horizontales con esos datos. Las barras del diagrama se pueden dibujar a base
 de asteriscos o cualquier otro carácter
  */
 import java.util.Scanner;
-public class Ejercicio108 {
+public class Ejercicio08 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String[] mes = {

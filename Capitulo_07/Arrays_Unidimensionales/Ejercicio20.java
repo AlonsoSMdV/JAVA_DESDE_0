@@ -8,7 +8,7 @@ aparecer como Felipe 1º y el segundo como Felipe 2º.
  */
 
  import java.util.Scanner;
-public class Ejercicio120 {
+public class Ejercicio20 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Cuantos reyes desea introducir: ");

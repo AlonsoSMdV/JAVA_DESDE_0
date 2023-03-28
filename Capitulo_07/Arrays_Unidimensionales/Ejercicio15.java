@@ -14,7 +14,7 @@ nuevos clientes se debe mostrar el estado de las mesas. Los grupos no se
 pueden romper aunque haya huecos sueltos suficientes.
  */
 
-public class Ejercicio115 {
+public class Ejercicio15 {
     public static void main(String[] args) {
         int[] mesa = new int[10];
         

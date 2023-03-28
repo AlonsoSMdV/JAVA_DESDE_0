@@ -5,7 +5,7 @@ máximo o el mínimo. Seguidamente se volverá a mostrar el array escribiendo
 el número destacado entre dobles asteriscos
  */
 import java.util.Scanner;
-public class Ejercicio113 {
+public class Ejercicio13 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] num = new int[100];

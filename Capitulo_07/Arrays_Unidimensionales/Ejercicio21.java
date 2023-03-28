@@ -5,7 +5,7 @@ array “cincuerizado”, según el siguiente criterio: si el número que hay en
 posición del array es múltiplo de 5, se deja igual, y si no, se cambia por el
 siguiente múltiplo de 5 que exista a partir de él.
  */
-public class Ejercicio121 {
+public class Ejercicio21 {
     public static void main(String[] args) {
         int[] arrayPrimero = new int[15];
         System.out.println("Array original: ");

@@ -5,7 +5,7 @@ de todos los elementos del array. ¿Qué sucede con los valores de los elementos
 que no han sido inicializados?
 
  */
-public class Ejercicio102 {
+public class Ejercicio02 {
     public static void main(String[] args) {
         char[] simbolo = new char[10];
         simbolo[1] = 'a';

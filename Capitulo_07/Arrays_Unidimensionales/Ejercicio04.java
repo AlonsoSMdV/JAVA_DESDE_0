@@ -6,7 +6,7 @@ numero. En el array cubo se deben almacenar los cubos de los valores que hay en
 numero. A continuación, muestra el contenido de los tres arrays dispuesto en tres
 columnas
  */
-public class Ejercicio104{
+public class Ejercicio04{
     public static void main(String[] args) {
         int[] numero = new int[20];
         int[] cuadrado = new int[20];
